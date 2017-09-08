@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+    	/*给body引用这个样式,不然图不出来,*/
+      body{
+            font-family: "微软雅黑","iconfont" !important;
+        }
+          /*.icon {
+            width: 5em; height: 5em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }*/
+/*引用阿里矢量图库矢量图方法1
+ 添加需要的矢量图到我的项目里面；
+ 我的项目--Unicode--点击生成代码@font-face--把@font-face引进放在style里面--复制图标的代码-- <i>图标代码<i>--<i>&#xe6de;</i>
+ * 
+ * */
+        @font-face {
+            font-family: 'iconfont'; 
+             /* project id 409465 */
+            src: url('//at.alicdn.com/t/font_409465_pek6khttek84obt9.eot');
+            src: url('//at.alicdn.com/t/font_409465_pek6khttek84obt9.eot?#iefix') format('embedded-opentype'),
+            url('//at.alicdn.com/t/font_409465_pek6khttek84obt9.woff') format('woff'),
+            url('//at.alicdn.com/t/font_409465_pek6khttek84obt9.ttf') format('truetype'),
+            url('//at.alicdn.com/t/font_409465_pek6khttek84obt9.svg#iconfont') format('svg');
+        }
+    </style>
+    
+<!--在线引用阿里矢量图库矢量图方法2
+添加需要的矢量图到我的项目里面
+ 我的项目--Font class--点击生成代码//at.alicdn.com/t/font_409498_o1d3wrj25gkfbt9.css--把//at.alicdn.com/t/font_409498_o1d3wrj25gkfbt9.css用link标签引进来--复制图标的代码--<i class="图标代码"><i>-- <i class="icon-zhiliangbz"></i>-->
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_409498_o1d3wrj25gkfbt9.css">
+    	
+  <!--在线引用阿里矢量图库矢量图方法3
+ 添加需要的矢量图到我的项目里面；
+ 我的项目--Symbol--点击生成代码//at.alicdn.com/t/font_409498_o1d3wrj25gkfbt9.js--把//at.alicdn.com/t/font_409498_o1d3wrj25gkfbt9.js用script标签引进来--复制图标的代码--
+ <svg class="icon" aria-hidden="true">
+ 	<use xlink:href="#图片代码">
+ 	</use>
+ 	</svg>
+ 	---->
+  <script src="//at.alicdn.com/t/font_409498_o1d3wrj25gkfbt9.js"></script>
+  
+  <!--方法4：引用Bootstrap矢量图库矢量图方法--用link标签引进 Bootstrap css--   https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css--组件找图标复制代码--<span class="图片代码" aria-hidden="true"></span>--<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+-->
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<!--方法4-->
+<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+<!--方法3-->
+<svg class="icon" aria-hidden="true">
+    <use xlink:href="#icon-delete"></use>
+</svg>
+<svg class="icon" aria-hidden="true">
+    <use xlink:href="#icon-chuzuche"></use>
+</svg>
+<!--方法2-->
+<i class="icon-zhiliangbz"></i>
+<!--方法1-->
+<i>&#xe6de;</i>
+</body>
+</html>
