@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    background: rgb(240,240,240);
+    width: 100%;
+    height: 100%;
+}
+$sc:50;
+img{
+    width: 340/$sc+rem;
+    height:340/$sc+rem ;
+    margin-left: 209/$sc+rem;
+    margin-top:335/$sc+rem ;
+}
+
